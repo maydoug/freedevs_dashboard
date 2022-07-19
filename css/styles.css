@@ -6,7 +6,6 @@
     --first-color: #1C1C1C;
     --first-color-light: #46fbd7;
     --white-color: #C1CDCD;
-    --verde-color: #0b581f ;
     --prata-color: #8c8c8c ;
     --body-font: 'Nunito', sans-serif;
     --normal-font-size: 1rem;
@@ -23,7 +22,7 @@
     margin-top: 150px;
 }
 .saudacao h4{
-    color: var(--verde-color);
+    color: var(--first-color-light);
 }
 
 .backblack {
