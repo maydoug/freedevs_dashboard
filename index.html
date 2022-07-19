@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body id="body-pd">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
         <div class="logos">
@@ -27,26 +28,37 @@
         <nav class="nav">
             <div> 
             <a href="#" class="nav_logo"> <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">FreeDev's</span> </a>
-            <div class="nav_list"> <a href="#" class="nav_link active"> <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Dashboard</span> </a> <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Sobre</span> </a> <a href="#" class="nav_link"> <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Mensagens</span> </a> <a href="#" class="nav_link">  <!-- <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">Bookmark</span> </a> <a href="#" class="nav_link"> <i class='bx bx-folder nav_icon'></i> <span class="nav_name">Files</span> </a> <a href="#" class="nav_link"> <i class='bx bx-bar-chart-alt-2 nav_icon'></i> <span class="nav_name">Stats</span>  --> </a> </div>
+            <div class="nav_list"> <a href="#" class="nav_link active"> <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Dashboard</span> </a> <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Perfil</span> </a> <a href="#" class="nav_link"> <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Mensagens</span> </a> <a href="#" class="nav_link">  <!-- <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">Bookmark</span> </a> <a href="#" class="nav_link"> <i class='bx bx-folder nav_icon'></i> <span class="nav_name">Files</span> </a> <a href="#" class="nav_link"> <i class='bx bx-bar-chart-alt-2 nav_icon'></i> <span class="nav_name">Stats</span>  --> </a> </div>
             </div> <!-- <a href="#" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a> -->
         </nav>
     </div>
 
     <!--Container Main start-->
     <div class="container backblack">
-        <div class="saudacao"><h4>Olá <span>Dev</span>, bem vindo ao seu dashboard.</h4></div>
+        <div class="saudacao"><h4>Olá <span>Dev</span>, veja Bem vindo ao seu dashboard.</h4></div>
         </div>
-        <div class="caixaVideo">
+        <div class="caixaTexto1">
+            <h5>Aqui você verá pedidos disponiveis para você desenvolver.</h5>
         </div>
-        <div class="caixaTexto">
+        <div class="caixaTexto2">
             <div class="texto1">
-                <p>Aqui você vera seu projetos em andamento.</p>
+                <p>Aqui você verá seus projetos em andamento:</p>
+            </div>
+            <div class="progresso">
+                <ol id="barra-simples-2" class="mid">
+                    <li>01ª SPRINT</li>
+                    <li class="step-present">02ª SPRINT</li>
+                    <li>03ª SPRINT</li>
+                    <li>04ª SPRINT</li>
+                    <li>05ª SPRINT</li>
+                </ol>
             </div>
         </div>
     </div>
     <!--Container Main end-->
 
   <script src="./src/script.js"></script>
+  <script src="./src/progressbar.js"></script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
