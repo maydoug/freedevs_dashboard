@@ -11,6 +11,11 @@
     --normal-font-size: 1rem;
     --z-fixed: 100
 }
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+}
+
 .logos{
     display: flex;
 }
@@ -19,7 +24,9 @@
 }
 
 .saudacao {
-    margin-top: 150px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
 }
 .saudacao h4{
     color: var(--first-color-light);
@@ -28,11 +35,11 @@
 .backblack {
     background-color: var(--first-color);
     color: var(--white-color);
-    text-align: center;
 }
 
 .caixaVideo {
-    margin-top: 100px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .backblack img{
@@ -42,9 +49,12 @@
 
 .caixaTexto {
     text-align: center;
-    margin: 200px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
+.caixaTexto p{
+    color: var(--white-color);
+}
+
 *,
 ::before,
 ::after {
