@@ -4,6 +4,6 @@
 
 ## LINKS:
 * [VEJA A ONLINE!](https://maydoug.github.io/freedevs_dashboard)
-### VEJA MAIS SOBRE O PRoJETO FREEDEVS: 
+### VEJA MAIS SOBRE O PROJETO FREEDEVS: 
 * [Cadastro Cliente](http://freedevs.herokuapp.com/)
 * [API em NodeJS, banco de Dados MongoDB](https://github.com/maydoug/API_NodeJS)
